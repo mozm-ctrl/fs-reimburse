@@ -11,6 +11,10 @@
 
 ## 安装
 
+**给同事（macOS，推荐）**：在仓库里运行 `sh fsr/package.sh`，生成 `fsr/dist/fsr-macos.zip`（通用二进制，Apple 芯片和 Intel 都能用），直接发给同事。他们解压后运行 `sh install.sh`，再执行 `fsr login` 即可，不需要装 Go，也不需要仓库权限。
+
+**从源码安装**：
+
 需要 [Go 1.26+](https://go.dev/dl/) 和这个仓库的访问权限（私有仓库，找 mozm 开通）。
 
 macOS / Linux：
