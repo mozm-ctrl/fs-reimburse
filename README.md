@@ -7,6 +7,8 @@
 - 用飞书长连接接收消息，不需要公网 IP 或内网穿透
 - Go 编写，编译后是单个可执行文件
 
+> **最简单（macOS，零安装）**：[`skill/fs-reimburse/`](skill/fs-reimburse/SKILL.md) 是纯说明书版 skill，只用 Mac 自带的 curl/sips/jq，由大模型照着执行，不需要安装任何程序。把这个文件夹放进 `~/.claude/skills/`，或在 Multica 里绑定给智能体即可。
+>
 > 不想依赖这台 Mac 上的服务？[`fsr/`](fsr/README.md) 是同样功能的独立命令行工具和智能体 skill，每个人在自己电脑上安装，让 AI 智能体帮你上传报销。
 
 ## 使用方法（普通用户）
